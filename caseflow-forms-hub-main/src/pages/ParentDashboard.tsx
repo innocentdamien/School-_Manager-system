@@ -1,6 +1,6 @@
-import { Button } from "@/components/ui/button";
+import { Button } from "../components/ui/button";
 import { FileText, Calendar } from "lucide-react";
-import DashboardLayout from "@/components/DashboardLayout";
+import DashboardLayout from "../components/DashboardLayout";
 
 const ParentDashboard = () => {
   // Mock data

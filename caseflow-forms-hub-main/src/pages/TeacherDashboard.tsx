@@ -1,8 +1,8 @@
 import { useState } from "react";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
+import { Button } from "../components/ui/button";
+import { Input } from "../components/ui/input";
 import { Search, Plus, FileText, Eye } from "lucide-react";
-import DashboardLayout from "@/components/DashboardLayout";
+import DashboardLayout from "../components/DashboardLayout";
 
 const TeacherDashboard = () => {
   const [searchQuery, setSearchQuery] = useState("");

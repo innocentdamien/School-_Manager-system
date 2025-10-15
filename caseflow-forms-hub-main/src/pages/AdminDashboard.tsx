@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Users, FileText } from "lucide-react";
-import DashboardLayout from "@/components/DashboardLayout";
+import DashboardLayout from "../components/DashboardLayout";
 
 const AdminDashboard = () => {
   const [selectedTeacher, setSelectedTeacher] = useState<number | null>(1);
